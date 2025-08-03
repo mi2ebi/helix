@@ -1130,6 +1130,7 @@ impl Default for Config {
             rainbow_brackets: false,
             enable_focus_dimmer: false,
             kitty_keyboard_protocol: Default::default(),
+            enable_focus_dimmer: false,
         }
     }
 }
