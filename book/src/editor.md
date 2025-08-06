@@ -68,6 +68,7 @@
 | `kitty-keyboard-protocol` | Whether to enable Kitty Keyboard Protocol. Can be `enabled`, `disabled` or `auto` | `auto` |
 | `enable-focus-dimmer` |  Whether to dim text in unfocused views or while jumping to labels. | `false` |
 | `kitty-keyboard-protocol` | Whether to enable Kitty Keyboard Protocol. Can be `enabled`, `disabled` or `auto` | `auto` |
+| `enable-focus-dimmer` |  Whether to dim text in unfocused views or while jumping to labels. | `false` |
 
 ### `[editor.clipboard-provider]` Section
 
