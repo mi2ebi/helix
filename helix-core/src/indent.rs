@@ -1128,7 +1128,7 @@ pub fn get_breadcrumbs(syntax: Option<&Syntax>, text: RopeSlice, pos: usize) -> 
                 continue;
             }
             if node.is_named() {
-                let line_idx = text.byte_to_line(parent.start_byte() as usize);
+                let line_idx = text.byte_to_line(parent.start_byte() as usize) + 1;
                 let line: String = text.line(line_idx).into();
                 breadcrumb_set.insert(
                     line_idx,
