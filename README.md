@@ -1,3 +1,14 @@
+# evie's helix fork
+
+added prs that haven't been merged in upstream:
+- `13430` vertical picker
+- `13492` breadcrumbs (doesn't work properly for me)
+- `13736` diagnostic serverity glyphs
+- `14121` move lines (`<C-j> <C-k>`)
+- `14151` focus dimmer
+
+<hr/>
+
 <div align="center">
 
 <h1>
