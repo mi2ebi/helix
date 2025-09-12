@@ -396,6 +396,17 @@ pub enum KittyKeyboardProtocolConfig {
     Enabled,
     /// Whether to dim text in unfocused views or while jumping to labels.
     pub enable_focus_dimmer: bool,
+    /// Whether to enable Kitty Keyboard Protocol
+    pub kitty_keyboard_protocol: KittyKeyboardProtocolConfig,
+}
+
+#[derive(Debug, Default, PartialEq, Eq, PartialOrd, Ord, Deserialize, Serialize, Clone, Copy)]
+#[serde(rename_all = "kebab-case")]
+pub enum KittyKeyboardProtocolConfig {
+    #[default]
+    Auto,
+    Disabled,
+    Enabled,
 }
 
 #[derive(Debug, Default, PartialEq, Eq, PartialOrd, Ord, Deserialize, Serialize, Clone, Copy)]
@@ -1088,6 +1099,7 @@ impl Default for Config {
             enable_focus_dimmer: false,
             kitty_keyboard_protocol: Default::default(),
             enable_focus_dimmer: false,
+            kitty_keyboard_protocol: Default::default(),
         }
     }
 }
