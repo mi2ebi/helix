@@ -6,6 +6,7 @@ added prs that haven't been merged in upstream:
 - `13736` separate diagnostic severity glyphs
 - `14121` move lines (`<C-j> <C-k>`)
 - `14151` focus dimmer (hasn't worked since the switch to termina)
+- `14446` ashokai themes
 
 <hr/>
 
