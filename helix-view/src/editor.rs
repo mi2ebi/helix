@@ -396,14 +396,6 @@ pub enum KittyKeyboardProtocolConfig {
     Enabled,
 }
 
-#[derive(Debug, Default, PartialEq, Eq, PartialOrd, Ord, Deserialize, Serialize, Clone, Copy)]
-#[serde(rename_all = "kebab-case")]
-pub enum KittyKeyboardProtocolConfig {
-    #[default]
-    Auto,
-    Disabled,
-    Enabled,
-}
 
 #[derive(Debug, Clone, PartialEq, Deserialize, Serialize, Eq, PartialOrd, Ord)]
 #[serde(default, rename_all = "kebab-case", deny_unknown_fields)]
