@@ -3,7 +3,9 @@
 added prs that haven't been merged in upstream:
 - `13430` vertical picker
 - `13492` breadcrumbs (doesn't work properly for me)
+- `13650` :buffer-nth
 - `13736` separate diagnostic severity glyphs
+- `14072` auto scrolling bufferline
 - `14121` move lines (`<C-j> <C-k>`)
 - `14151` focus dimmer (hasn't worked since the switch to termina)
 
