@@ -9,6 +9,7 @@
 - `14072` auto scrolling bufferline
 - `14121` move lines (`<C-j> <C-k>`)
 - `14151` focus dimmer (hasn't worked since the switch to termina)
+- `14482` nearley highlighting
 
 <hr/>
 
