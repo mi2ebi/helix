@@ -17,9 +17,11 @@
 
 "comment" = "fg-dim"
 
+variable = "fg-main"
+operator = "fg-main"
 "variable.parameter" = "cyan"
 "variable.builtin" = "magenta-cooler"
-"label" = "fg-dim" # used for language in markdown code blocks
+"label" = "fg-alt" # used for language in markdown code blocks
 "keyword" = "magenta-cooler"
 "keyword.directive" = "red-cooler"
 "function" = "magenta"
